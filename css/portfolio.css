@@ -1,0 +1,151 @@
+/* фон footer #2F303A; */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot');
+  src: local(''),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.woff2')
+      format('woff2'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.woff')
+      format('woff'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.ttf')
+      format('truetype'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-regular.svg#Raleway')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway/raleway-v18-latin_cyrillic-700.eot');
+  src: local(''),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-700.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff') format('woff'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-700.ttf')
+      format('truetype'),
+    url('../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway')
+      format('svg');
+}
+body {
+  background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --dark-bg: #2f303a;
+}
+/* header+footer */
+
+.link-nav,
+.link-contact {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.contact .link-contact {
+  color: var(--primary-text-color);
+}
+
+.logo,
+.active,
+.link-nav:hover,
+.link-nav:focus,
+.link-contact:hover,
+.link-contact:focus,
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-color);
+}
+
+.link-footer,
+.address {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer,
+.address {
+  color: var(--white);
+}
+
+.logo-header {
+  color: black;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--dark-bg);
+}
+
+.header {
+  background-color: var(--white);
+}
+
+/* examples+filters */
+.title,
+.filters {
+  color: var(--title-text-color);
+}
+
+.filters {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filters:hover,
+.filters:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.content {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
