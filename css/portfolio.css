@@ -33,6 +33,17 @@
     url('../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway')
       format('svg');
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
