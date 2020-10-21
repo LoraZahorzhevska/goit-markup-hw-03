@@ -54,6 +54,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
   text-decoration: none;
 }
@@ -115,14 +117,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  display: inline-block;
-  width: 145px;
-  height: 31px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 215px;
-  margin-right: 93px;
-  background-color: tomato;
 }
 
 .footer {
@@ -139,11 +133,24 @@ body {
   color: var(--white);
 }
 
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+  /* margin-left: auto;
+  margin-right: auto;
+
+  width: 1200px;
+  height: 600px; */
+}
+
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  background-color: tomato;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -155,7 +162,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
 }
 
@@ -167,6 +174,8 @@ body {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .features .title {
@@ -188,6 +197,8 @@ body {
 
 /*text*/
 .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.188;
@@ -198,4 +209,15 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+/* top line */
+.top-line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.container {
+  margin-bottom: 94px;
 }
