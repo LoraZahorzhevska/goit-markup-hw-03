@@ -40,6 +40,8 @@
   --accent-color: #2196f3;
   --white: #ffffff;
   --dark-bg: #2f303a;
+  --light-bg: #e5e5e5;
+  --btn-bg: #f5f4fa;
 }
 
 html {
@@ -53,7 +55,6 @@ html {
 }
 
 body {
-  background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.714;
@@ -76,6 +77,8 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  color: var(--light-bg);
 }
 
 .visually-hidden {
@@ -152,6 +155,7 @@ img {
 }
 
 .header {
+  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: var(--white);
@@ -192,8 +196,7 @@ img {
 }
 
 .filters {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 0px;
   border-radius: 4px;
   padding: 6px 22px;
 
@@ -215,6 +218,10 @@ img {
 .filters-list {
   display: flex;
   justify-content: center;
+}
+
+.filters-item {
+  color: var(--btn-bg);
 }
 
 .filters-item:not(:last-child) {
@@ -251,7 +258,7 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 
-  /* text-align: center; */
+  border: 1px solid #eeeeee;
 }
 
 .container-gallery {

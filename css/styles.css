@@ -41,6 +41,8 @@
   --accent-color: #2196f3;
   --white: #ffffff;
   --dark-bg: #2f303a;
+  --light-bg: #e5e5e5;
+  --team-bg: #f5f4fa;
 }
 
 html {
@@ -54,7 +56,6 @@ html {
 }
 
 body {
-  background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.714;
@@ -143,7 +144,8 @@ img {
   letter-spacing: 0.03em;
 }
 
-.footer {
+.footer,
+.hero {
   background-color: var(--dark-bg);
 }
 
@@ -199,7 +201,6 @@ img {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -246,6 +247,11 @@ img {
   letter-spacing: 0.03em;
 }
 
+.features,
+.work-section {
+  color: var(--light-bg);
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -269,6 +275,10 @@ img {
   text-align: left;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.team-section {
+  color: var(--team-bg);
 }
 
 .team .title {
